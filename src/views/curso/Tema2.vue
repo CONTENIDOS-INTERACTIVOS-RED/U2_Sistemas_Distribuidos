@@ -5,7 +5,7 @@
 
     .bg-color-2.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.order-2
+        .col-lg-auto.mb-3.mb-lg-0.order-2
           figure
             img(src='@/assets/curso/tema2/1.png', alt='')
         .col-lg.order-1.mb-3.mb-lg-0
@@ -68,14 +68,14 @@
     
         .bg-color-2.p-4(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema2/5.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Un reloj lógico asigna una marca numérica a cada evento de un sistema distribuido, siguiendo reglas que preservan la relación causal entre eventos (Muñoz Escoí, 2013). Estos relojes permiten identificar cuándo un evento ocurrió antes, ocurrió después o no está relacionado causalmente con otro.
 
     .row.justify-content-center.align-items-center.bg-color-6.mb-5.bg-full-width
       .col-lg-12
-        .row.justify-content-center.align-items-center.px-5
+        .row.justify-content-center.align-items-center.px-5.py-4.py-lg-0
           .col-lg-8(data-aos="fade-left").mb-3.mb-lg-0
             h4 La relación de causalidad: “happened-before” (→)
             p El concepto central detrás de los relojes lógicos, es la relación de “ocurrió antes que” (denotada como →), propuesta por Leslie Lamport en 1978. Esta relación se define así:
@@ -148,11 +148,6 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://sistemasdistribuidosgrupo10.blogspot.com/p/sincronizacion-en-sistemas-distribuidos.html  " target="_blank" rel="noopener noreferrer") Sistemas Distribuidos Grupo 10. (s. f.). Sincronización en sistemas distribuidos. Blogger. 
-
-
-
-
-            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")

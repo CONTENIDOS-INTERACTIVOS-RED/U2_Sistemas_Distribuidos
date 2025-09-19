@@ -10,7 +10,7 @@
       .col-lg-8.order-lg-1
         .bg-color-1.px-4.py-5(data-aos="fade-left").mb-4
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 Los protocolos de comunicación como RPC (Remote Procedure Call) y REST (Representational State Transfer), permiten la interacción entre componentes distribuidos a través de una red. RPC simula una llamada local a una función remota, ocultando la complejidad de la red y facilitando la programación distribuida orientada a procedimientos. En cambio, REST se basa en el protocolo HTTP y en operaciones estándar (GET, POST, PUT, DELETE) sobre recursos identificados por URLs, promoviendo una arquitectura ligera, escalable y ampliamente adoptada en servicios web modernos. Ambos enfoques cumplen el propósito de conectar procesos remotos, pero difieren en estilo, flexibilidad y casos de uso (Muñoz Escoí, 2013).
@@ -175,7 +175,7 @@
 
 
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/12.svg", style="max-width: 90px").mx-auto
       .col-lg
         p Una forma sencilla de implementar RPC es mediante el módulo xmlrpc de Python. A continuación, se presenta un ejemplo básico:
@@ -203,7 +203,7 @@
 
 
     .row.align-items-center.mb-5
-      .col-lg-auto
+      .col-lg-auto.mb-3.mb-lg-0
         img(src="@/assets/curso/tema1/12.svg", style="max-width: 90px").mx-auto
       .col-lg
         p En entornos modernos, se prefiere el uso de gRPC, una evolución del modelo RPC basada en HTTP/2 y Protocol Buffers (Muñoz Escoí, 2013). gRPC es altamente eficiente, multiplataforma, y permite definir servicios usando archivos .proto.

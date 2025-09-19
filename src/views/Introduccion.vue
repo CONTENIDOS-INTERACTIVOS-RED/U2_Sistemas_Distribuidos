@@ -12,7 +12,7 @@
     
         .bg-color-2.p-4(data-aos="fade-left").mb-3
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
             .col-lg
               p.mb-0 El propósito central de esta unidad es que el estudiante desarrolle competencias para analizar, seleccionar y aplicar protocolos de comunicación, adecuados al contexto de sistemas distribuidos, comprendiendo las diferencias entre modelos como RPC (<em>Remote Procedure Call</em>) y REST (<em>Representational State Transfer</em>). Asimismo, se explora cómo estas tecnologías posibilitan la invocación de servicios distribuidos, facilitando la interoperabilidad entre componentes que residen en ubicaciones físicas diferentes.
