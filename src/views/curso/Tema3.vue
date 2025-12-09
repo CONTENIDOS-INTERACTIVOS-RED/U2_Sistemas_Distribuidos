@@ -610,7 +610,7 @@ export default {
               {
                 id: 'c',
                 texto: 'Condiciones de carrera',
-                esCorrecta: false,
+                esCorrecta: true,
               },
               {
                 id: 'd',
